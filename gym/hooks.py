@@ -227,3 +227,8 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+# Add your patch to the patches list
+patches = [
+    # other patches
+    "gym.patches.patches.py"
+]
