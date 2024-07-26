@@ -232,3 +232,10 @@ patches = [
     # other patches
     "gym.patches.patches.py"
 ]
+
+
+doc_events = {
+    "Gym Membership": {
+        "validate": "gym.doctype.gym_membership.gym_membership.validate"
+    }
+}

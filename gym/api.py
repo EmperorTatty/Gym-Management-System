@@ -16,3 +16,16 @@ def get_customer_profile(member):
     }
 
     return profile
+
+
+
+def get_gym_membership_cost(membership_type):
+    gym_settings = frappe.get_single("Gym Setting")
+    if membership_type == "Weekly":
+        return gym_settings.weekly_cost
+    elif membership_type == "Monthly":
+        return gym_settings.monthly_cost
+    elif membership_type == "Yearly":
+        return gym_settings.yearly_cost
+    else:
+        frappe.throw(frappe._("Invalid membership type"))

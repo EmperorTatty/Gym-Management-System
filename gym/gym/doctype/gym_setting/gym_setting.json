@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-19 09:51:29.601979",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_shsa",
+  "weekly_cost",
+  "monthly_cost",
+  "yearly_cost"
+ ],
+ "fields": [
+  {
+   "fieldname": "weekly_cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Weekly Cost",
+   "reqd": 1
+  },
+  {
+   "fieldname": "monthly_cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Monthly Cost",
+   "reqd": 1
+  },
+  {
+   "fieldname": "yearly_cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Yearly Cost",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_shsa",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-07-25 11:57:36.250486",
+ "modified_by": "Administrator",
+ "module": "Gym",
+ "name": "Gym Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
